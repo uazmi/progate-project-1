@@ -1,1 +1,54 @@
 /* Tempat menulis CSS codenya */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+  
+}
+
+/* Ketik code Anda dibawah */
+.header{
+ background-color: #fff;
+ height:100px;
+ color:#ddaa44;
+ border-bottom:2px solid #ddaa44;
+}
+.header-logo{
+
+  font-size:36px;
+  float:left;
+  padding:20px 40px 20px 40px;
+  color:#ddaa44;
+  
+}
+.header-list{
+  
+  float:right;
+  color:#ddaa44;
+  line-height: 65px;
+    padding: 0 25px;
+    display: block;
+  
+    
+}
+.header-list li{
+  float:left;
+  padding: 20px 20px;
+  color:#ddaa44;
+}
+.header-list :hover{
+    background-color: #92712e;
+    color:white;
+    opacity:1;
+    
+}
